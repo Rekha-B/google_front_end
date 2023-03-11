@@ -1,0 +1,38 @@
+h2 {
+    color: red;
+  }
+  h3{
+    margin:0px 20px;
+
+  }
+  div.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid #b7b7b7;
+  }
+  .correct {
+    background: #04af04;
+  }
+  .partially-correct {
+    background: yellow;
+  }
+  .incorrect {
+    background: red;
+  }
+
+  div.question {
+    display: flex;
+    margin-top:20px;
+  }
+  div#wrapper {
+    display: flex;
+    justify-content: center;
+    width:960px;
+    max-width:1600px;
+    margin:0 auto;
+  }
+  div.category{
+    max-width: 550px;
+    min-width: 310px;
+  }
